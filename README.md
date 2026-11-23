@@ -2,8 +2,6 @@
 
 Module Python thử nghiệm nhận diện lửa nhỏ, lửa lớn và giảm báo nhầm do đèn xe hoặc vùng phản xạ. YOLOX tìm vùng nghi có lửa, bản mô phỏng rule lửa VIAVF xét ứng viên, sau đó bộ lọc theo thời gian quyết định cho đi tiếp. Đầu ra phục vụ bước VLM hoặc phát cảnh báo trong hệ thống tích hợp.
 
-Bàn giao module ngày **23/11/2026**. Kết quả nhận diện mới nhất là lượt thử ngày **20/11/2026**.
-
 ## Luồng hoạt động
 
 ```mermaid
