@@ -1,0 +1,11 @@
+{
+  "pairs": 6,
+  "hot_change": 0.0,
+  "side_change": 0.0,
+  "centered_change": 0.0,
+  "brightness_change": 0.0,
+  "warm_change": 0.0,
+  "aligned_hot_change": 0.1,
+  "area_change": 0.067,
+  "edge_smoothness": 0.85
+}

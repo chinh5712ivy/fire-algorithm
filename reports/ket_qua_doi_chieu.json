@@ -1,0 +1,159 @@
+{
+  "rule": {
+    "pairs": 6,
+    "hot_change": 0.0,
+    "side_change": 0.0,
+    "centered_change": 0.0,
+    "brightness_change": 0.0,
+    "warm_change": 0.0,
+    "aligned_hot_change": 0.1,
+    "area_change": 0.067,
+    "edge_smoothness": 0.85
+  },
+  "results": [
+    {
+      "video": "garage_fp_one.mp4",
+      "label": "false",
+      "scope": "garage",
+      "positive_window_s": null,
+      "viavf_first_s": 5.8,
+      "previous_first_s": 5.8,
+      "first_s": null,
+      "first_bbox": null,
+      "first_track_id": null,
+      "first_stats": null,
+      "counts": {
+        "waiting": 1
+      }
+    },
+    {
+      "video": "garage_fp_two.mp4",
+      "label": "false",
+      "scope": "garage",
+      "positive_window_s": null,
+      "viavf_first_s": null,
+      "previous_first_s": null,
+      "first_s": null,
+      "first_bbox": null,
+      "first_track_id": null,
+      "first_stats": null,
+      "counts": {}
+    },
+    {
+      "video": "garage_hand_flame.mp4",
+      "label": "true",
+      "scope": "garage",
+      "positive_window_s": [
+        0.0,
+        10.0
+      ],
+      "viavf_first_s": 1.4,
+      "previous_first_s": 1.4,
+      "first_s": 1.6,
+      "first_bbox": [
+        635.5001831054688,
+        314.1846618652344,
+        662.6558227539062,
+        339.9353332519531
+      ],
+      "first_track_id": 1,
+      "first_stats": {
+        "hot_change": 0.3439108741466578,
+        "centered_change": 0.14080295711755753,
+        "side_change": 0.06935615032159305,
+        "brightness_change": 0.0077554285526275635,
+        "warm_change": 0.03271484375,
+        "aligned_hot_change": 0.32473039125473885,
+        "area_change": 0.1387123006431861,
+        "edge_smoothness": 0.9076766446232796
+      },
+      "counts": {
+        "waiting": 1,
+        "pass": 31,
+        "low_area_change": 4,
+        "low_aligned_hot_change": 2
+      }
+    },
+    {
+      "video": "garage_denxe19.mp4",
+      "label": "false",
+      "scope": "garage",
+      "positive_window_s": null,
+      "viavf_first_s": null,
+      "previous_first_s": null,
+      "first_s": null,
+      "first_bbox": null,
+      "first_track_id": null,
+      "first_stats": null,
+      "counts": {}
+    },
+    {
+      "video": "public_chay.mp4",
+      "label": "true",
+      "scope": "stress",
+      "positive_window_s": [
+        66.0,
+        93.0
+      ],
+      "viavf_first_s": 66.0,
+      "previous_first_s": 66.0,
+      "first_s": 66.2,
+      "first_bbox": [
+        910.7460327148438,
+        115.87788391113281,
+        1054.3173828125,
+        281.93524169921875
+      ],
+      "first_track_id": 1,
+      "first_stats": {
+        "hot_change": 0.3330163726583164,
+        "centered_change": 0.05870341323316097,
+        "side_change": 0.06230192238239293,
+        "brightness_change": 0.011169135570526123,
+        "warm_change": 0.0,
+        "aligned_hot_change": 0.294567238173931,
+        "area_change": 0.11807821073983159,
+        "edge_smoothness": 0.9699968374334276
+      },
+      "counts": {
+        "waiting": 49,
+        "low_area_change": 1,
+        "pass": 89
+      }
+    },
+    {
+      "video": "public_fire_car.mp4",
+      "label": "true",
+      "scope": "stress",
+      "positive_window_s": [
+        1.0,
+        20.0
+      ],
+      "viavf_first_s": 1.0,
+      "previous_first_s": 1.0,
+      "first_s": 1.2,
+      "first_bbox": [
+        229.7975311279297,
+        0.0,
+        1585.0380859375,
+        952.68701171875
+      ],
+      "first_track_id": 1,
+      "first_stats": {
+        "hot_change": 0.15212576524605603,
+        "centered_change": 0.05422834865748882,
+        "side_change": 0.04753785019822834,
+        "brightness_change": 0.02100411057472229,
+        "warm_change": 0.0,
+        "aligned_hot_change": 0.17685575890739308,
+        "area_change": 0.09245211037189882,
+        "edge_smoothness": 0.9607524080201983
+      },
+      "counts": {
+        "waiting": 27,
+        "pass": 52,
+        "low_area_change": 20
+      }
+    }
+  ]
+}
